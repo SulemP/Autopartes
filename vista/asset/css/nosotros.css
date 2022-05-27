@@ -1,0 +1,62 @@
+.nosotros{
+    font-size: 16px;
+    position: relative;
+    background-color: var(--color-heart5);
+}
+
+.auto{
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+    margin-top: 7rem;
+}
+
+.titulo{
+    color: white;
+    margin-top: 11rem;
+    text-transform: uppercase;
+}
+
+.sub{
+    color: var(--color-heart4);
+    font-size: 20px;
+    margin-top: 2rem;
+}
+
+.correo{
+    margin-top: 2rem;
+}
+
+#correo{
+    padding-bottom: .2rem;
+    padding-top: .2rem;
+    padding-left: 2rem;
+    margin-right: 5%;
+    width: 70%;
+    border-radius: .5rem;
+    border-color: var(--color-heart2);
+}
+
+.enviar{
+    padding: .2rem;
+    border-radius: .5rem;
+    width: 20%;
+    color: var(--color-heart2);
+    border-color: var(--color-heart2);
+    font-weight: 500;
+}
+
+.descuento{
+    margin-top: 2rem;
+    background-color: var(--color-heart2);
+    height: 1.3rem;
+    width: 70%;
+    border-radius: .5rem;
+}
+
+.desc{
+    color: white;
+    text-align: center;
+    line-height: 1.1rem;
+    font-weight: 300;
+}

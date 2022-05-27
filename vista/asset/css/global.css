@@ -1,1 +1,12 @@
-/* No CSS *//*# sourceMappingURL=global.css.map */
+:root{
+    --color-heart1: #D91414;
+    --color-heart2: #BF1111;
+    --color-heart3: #590B0B;
+    --color-heart4: #726f70;
+    --color-heart5: #000000;
+  }
+  
+.tSlow{
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}

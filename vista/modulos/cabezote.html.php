@@ -16,7 +16,9 @@
                 </ul>
             </div>
             <div class="col-2">
-                <button class="boton">Contactanos</button>
+                <button class="boton">
+                    <p class="escribenos">Escríbenos</p>
+                </button>
             </div>
         </div>
     </div>
