@@ -17,11 +17,9 @@
 
 .informacion{
     margin-top: 4rem;
-    margin-left: 5rem;
+    /*margin-left: 5rem;*/
     color: white;
     z-index: 2;
-    display: block;
-    align-items: center;
 }
 
 .adicional__h{

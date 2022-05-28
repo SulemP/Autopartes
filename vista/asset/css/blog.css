@@ -26,7 +26,7 @@
 .cards__1, .cards__2, .cards__3{
     width: 80%;
     height: 350px;
-    background-color: var(--color-heart4);
+    background-color: var(--color-heart5);
     border-radius: 10px;
     padding: 1rem;
     text-align: center;
@@ -51,7 +51,7 @@
 }
 
 .autopartes__desc{
-    color: var(--color-heart5);
+    color: white;
     text-align: justify;
 }
 

@@ -5,8 +5,33 @@
     
 }
 
-.copy__p{
+.contactos{
+    padding: 0%;
+}
+
+.footer__info{
+    text-align: right;
+}
+
+.contactos, .redes, .info{
+    margin-top: 3rem;
     color: white;
+    list-style: none;
+}
+
+.footer__redes{
+    margin-top: 2rem;
+}
+
+.redes{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+.footer__sub{
+    color: var(--color-heart2);
+    font-weight: bold;
 }
 
 .footer__final{
@@ -15,7 +40,18 @@
     -webkit-clip-path: polygon(0% 0%, 100% 0%, 50% 200%);
     -o-clip-path: polygon(0% 0%, 100% 0%, 50% 200%);
     clip-path: polygon(0% 0%, 100% 0%, 50% 200%);
-    margin-top: 6rem;
-    height: 3rem;
+    margin-top: 2rem;
+    height: 1.5rem;
     padding: 0%;
+}
+
+.copy__p{
+    color: white;
+    text-align: center;
+}
+
+.bp{
+    color: var(--color-heart2);
+    text-decoration: none;
+    font-weight: bold;
 }
