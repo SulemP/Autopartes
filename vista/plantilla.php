@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="vista/asset/css/global.css">
     <link rel="stylesheet" href="vista/asset/css/cabezote.css">
     <link rel="stylesheet" href="vista/asset/css/jumbotron.css">
-    <link rel="stylesheet" href="vista/asset/css/blog.css">
+    <!--<link rel="stylesheet" href="vista/asset/css/blog.css">-->
   
   </head>
   
@@ -21,7 +21,7 @@
     
     include "vista/modulos/cabezote.html.php";
     include "vista/modulos/jumbotron.html.php";
-    include "vista/modulos/blog.html.php";
+    //include "vista/modulos/blog.html.php";
     
     ?>
 
