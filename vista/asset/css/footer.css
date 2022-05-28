@@ -1,0 +1,21 @@
+#footer{
+    position: relative;
+    font-size: 16px;
+    background-color: var(--color-heart5);
+    
+}
+
+.copy__p{
+    color: white;
+}
+
+.footer__final{
+    background-color: var(--color-heart4);
+    backface-visibility: visible;
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 50% 200%);
+    -o-clip-path: polygon(0% 0%, 100% 0%, 50% 200%);
+    clip-path: polygon(0% 0%, 100% 0%, 50% 200%);
+    margin-top: 6rem;
+    height: 3rem;
+    padding: 0%;
+}
