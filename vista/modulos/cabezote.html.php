@@ -9,9 +9,8 @@
             </div>
             <div class="col-8">
                 <ul class="opciones">
-                    <li class="opc link-active"><a id="ini" class="url" href="#inicio">Inicio</a></li>
-                    <li class="opc"><a class="url" href="#nosotros">Nosotros</a></li>
-                    <li class="opc"><a class="url" href="#autopartes">Autopartes</a></li>
+                    <li class="opc link-active"><a id="ini" class="url" href="#jumbotron">Inicio</a></li>
+                    <li class="opc"><a class="url" href="#blog">Autopartes</a></li>
                     <li class="opc"><a class="url" href="#contacto">Contacto</a></li>
                 </ul>
             </div>

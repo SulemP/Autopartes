@@ -1,4 +1,4 @@
-.nosotros{
+.jumbotron{
     font-size: 16px;
     position: relative;
     background-color: var(--color-heart5);
@@ -35,6 +35,7 @@
     width: 70%;
     border-radius: .5rem;
     border-color: var(--color-heart2);
+    color: var(--color-heart2);
 }
 
 .enviar{

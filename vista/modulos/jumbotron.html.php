@@ -1,4 +1,4 @@
-<div class="container-fluid nosotros">
+<div class="container-fluid" id="jumbotron">
     <div class="container">
         <div class="row">
             <div class="col-5">
