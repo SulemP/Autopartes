@@ -14,6 +14,7 @@
                     <li><i class="bi bi-whatsapp"></i></li>
                     <li><i class="bi bi-facebook"></i></li>
                     <li><i class="bi bi-instagram"></i></li>
+                    <p>PARRAFO PARA CREAR UN CAMBIO NUEVO Y PÒDER HACER UN COMMIT</p>
                 </ul>
             </div>
             <div class="col-4 footer__info">
