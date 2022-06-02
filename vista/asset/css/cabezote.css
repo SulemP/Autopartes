@@ -7,40 +7,11 @@
     z-index: 10;
   }
   
-.logo {
+.logo{
     height: 100px;
-    margin-top: 0.2rem;
+    margin-top: 0.5rem;
   }
   
-.campana {
-    color: white;
-    font-weight: bold;
-    font-size: 13px;
-    position: absolute;
-    z-index: 2;
-    top: 1.3rem;
-    left: 9.9%;
-  }
-  
-.autopartes {
-    color: #D91414;
-    font-weight: bold;
-    font-size: 19px;
-    position: absolute;
-    z-index: 2;
-    top: 2.3rem;
-    left: 8.2%;
-  }
-  
-.camp {
-    -o-object-fit: cover;
-    object-fit: cover;
-    position: absolute;
-    z-index: 2;
-    top: 4rem;
-    left: 11.2%;
-    width: 2%;
-  }
   
 .opciones {
     height: 110px;
