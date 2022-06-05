@@ -14,7 +14,7 @@
 
 .autopartes__p{
     margin-top: 2rem;
-    color: var(--color-heart2);
+    color: white;
     text-align: center;
     font-size: 22px;
 }
@@ -24,7 +24,7 @@
 }
 
 .cards__1, .cards__2, .cards__3{
-    width: 80%;
+    width: 100%;
     height: 350px;
     background-color: var(--color-heart5);
     border-radius: 10px;
@@ -42,7 +42,6 @@
 .imagen{
     object-fit: cover;
     width: 80%;
-    height: 100%;
 }
 
 .autopartes__nombre{
@@ -59,4 +58,80 @@
     color: white;
     margin-top: 3rem;
     text-align: center;
+}
+
+
+/*Son medias query y sirven para hacer modificaciones en las páginas web, dependiendo de la resolución en la que estemos*/
+/*Medida XL*/
+@media (min-width: 1200px) {
+    .imagen{
+        height: 100%;
+    }
+}
+
+/*TELÉFONO CELULAR LG*/
+@media (max-width: 1199px) and (min-width: 992px){
+    .imagen{
+        height: 100%;
+    }
+
+}
+
+/*TELÉFONO CELULAR MD*/
+@media (max-width: 991px) and (min-width: 768px){
+    .autopartes__desc{
+        font-size: 14px;
+    }
+}
+
+/*TELÉFONO CELULAR SM*/
+@media(max-width: 767px) and (min-width: 576px){
+    #blog{
+        font-size: 14px;
+    }
+    
+    .cards__3{
+        margin-top: 3rem;
+        width: 50%;
+    }
+}
+
+/*TELÉFONO CELULAR XS*/
+@media (max-width: 575px){
+    #blog{
+        font-size: 12px;
+    }
+    
+    .cards__1, .cards__2, .cards__3{
+        width: 90%;
+        height: 250px;
+    }
+    
+    .cards__2{
+        margin-top: 3rem;
+    }
+    
+    .cards__3{
+        margin-top: 3rem;
+    }
+    
+    .imagen{
+        width: 50%;
+    }
+
+    .autopartes__nombre{
+        margin-top: 2rem;
+    }
+
+    #luna{
+        height: 140%;
+    }
+
+    #luna__des{
+        margin-top: 3rem;
+    }
+
+    .blog__personal{
+        font-size: 10px;
+    }
 }

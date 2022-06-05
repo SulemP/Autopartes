@@ -23,17 +23,17 @@
     <nav id="inicio" class="container-fluid cabezote">
       <div class="container">
           <div class="row">
-              <div class="col-2">
+              <div class="cabezote__a col-2 col-xl-2 col-lg-3 col-md-3 col-sm-3 col-6">
                   <img class="logo" src="vista/asset/images/logotipo.png" alt="">
               </div>
-              <div class="col-8">
+              <div class="cabezote__b col-xl-8 col-lg-6 col-md-6 col-sm-6 esconder-xs">
                   <ul class="opciones">
                       <li class="opc link-active"><a id="ini" class="url" href="#jumbotron">Inicio</a></li>
                       <li class="opc"><a class="url" href="#blog">Autopartes</a></li>
                       <li class="opc"><a class="url" href="#contacto">Contacto</a></li>
                   </ul>
               </div>
-              <div class="col-2">
+              <div class="cabezote__c col-xl-2 col-lg-3 col-md-3 col-sm-3 col-6">
                   <button class="boton">
                       <p class="escribenos">Escríbenos</p>
                   </button>
@@ -44,64 +44,69 @@
 
     <!-- AQUÌ CPOMIENZA EL JUMBOTRON-->
     <jumbotron class="container-fluid" id="jumbotron">
-      <div class="container">
-          <div class="row">
-              <div class="col-5">
-                  <h1 class="titulo">Todo lo que tu automovil necesita.</h1>
-                  <h2 class="sub">Acercate con nosotros para asesorarte con cualquier duda que tengas.</h2>
-                  <div class="correo">
-                      <input type="text" name="correo" id="correo" placeholder="Ingrese su correo">
-                      <button class="enviar" type="submit">Registrarse</button>
-                  </div>
-                  <div class="descuento">
-                      <p class="desc small">10% de descuento en tu primera compra</p>
-                  </div>
-              </div>
-              <div class="col-7">
-                  <img class="auto" src="vista/asset/images/auto.png" alt="">
-              </div>
-          </div>
-      </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12">
+                    <div>
+                        <h1 class="titulo">Todo lo que tu automovil necesita</h1>
+                    </div>
+                    <h2 class="sub">Acercate con nosotros para asesorarte con cualquier duda que tengas.</h2>
+                    <div class="correo">
+                        <input type="text" name="correo" id="correo" placeholder="Ingrese su correo">
+                        <button class="enviar" type="submit">Registrarse</button>
+                    </div>
+                    <div class="descuento">
+                        <p class="desc small">10% de descuento en tu primera compra</p>
+                    </div>
+                </div>
+                <div class="col-xl-7 col-lg-7 col-md-12 esconder-sm esconder-xs">
+                    <img class="auto" src="vista/asset/images/auto.png" alt="">
+                </div>
+            </div>
+        </div>
     </jumbotron>
 
     <!--AQUÌ COMIENZA BLOG-->
     <div class="container-flui" id="blog">
-      <div class="container">
-          <h3 class="autopartes__sub">Autopartes</h3>
-          <p class="autopartes__p">Esto es un poco de lo puedes encontrar con nosotros.</p>
+        <div class="container">
+            <h3 class="autopartes__sub">Autopartes</h3>
+            <p class="autopartes__p">Esto es un poco de lo puedes encontrar con nosotros.</p>
+            
+            <div class="row cards">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="cards__1">
+                        <figure class="card__a">
+                            <img class="imagen" src="vista/asset/images/faros.png" alt="">
+                        </figure>
+                        <h4 class="autopartes__nombre">Faros</h4>
+                        <p class="autopartes__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="cards__2">
+                        <figure class="card__a">
+                            <img class="imagen" src="vista/asset/images/puert.png" alt="">
+                        </figure>
+                        <h4 class="autopartes__nombre">Puertas</h4>
+                        <p class="autopartes__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                    <div class="cards__3">
+                        <figure class="card__a">
+                            <img class="imagen" id="luna" src="vista/asset/images/espejo.png" alt="">
+                        </figure>
+                        <div id="luna__des">
+                            <h4 class="autopartes__nombre">Lunas</h4>
+                            <p class="autopartes__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</p>
+                        </div>
+                    </div>
+                </div>
+                <p class="blog__personal">Si lo que estás buscando es algo más específico, puedes escribirnos para saber tu situación.
+                    <br>
+                    Contamos con piezas nuevas y de segunda mano para darte la solución más conveniente para ti.
+                </p>
         
-          <div class="row cards">
-              <div class="col-4">
-                  <div class="cards__1">
-                      <figure class="card__a">
-                          <img class="imagen" src="vista/asset/images/faros.png" alt="">
-                      </figure>
-                      <h4 class="autopartes__nombre">Faros</h4>
-                      <p class="autopartes__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</p>
-                  </div>
-              </div>
-              <div class="col-4">
-                  <div class="cards__2">
-                      <figure class="card__a">
-                          <img class="imagen" src="vista/asset/images/puert.png" alt="">
-                      </figure>
-                      <h4 class="autopartes__nombre">Puertas</h4>
-                      <p class="autopartes__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</p>
-                  </div>
-              </div>
-              <div class="col-4">
-                  <div class="cards__3">
-                      <figure class="card__a">
-                          <img class="imagen" src="vista/asset/images/espejo.png" alt="">
-                      </figure>
-                      <h4 class="autopartes__nombre">Lunas</h4>
-                      <p class="autopartes__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</p>
-                  </div>
-              </div>
-              <p class="blog__personal">Si lo que estás buscando es algo más específico, puedes escribirnos para saber tu situación.
-                  <br>
-                  Contamos con piezas nuevas y de segunda mano para darte la solución más conveniente para ti.
-              </p>
           </div>
       </div>
   </div>
@@ -111,7 +116,7 @@
     <img class="movimiento" src="vista/asset/images/movimiento.gif" alt="">
     <div class="container">
         <div class="row">
-            <div class="col-5 informacion">
+            <div class="col-xl-5 col-lg-5 col-md-8 col-sm-12 col-12 informacion">
                 <h4 class="adicional__h">Te ayudamos en lo que necesites</h4>
                 <p class="adicional__p">Mantener tu auto impecable es la mejor decisión</p>
                 <p class="adicional__info">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
@@ -124,7 +129,7 @@
 <footer class="container-fluid" id="footer">
   <div class="container">
       <div class="row">
-          <div class="col-4 contacto">
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6 contacto">
               <ul class="contactos">
                   <li class="footer__sub">Contactanos</li>
                   <li class="small">autopartes@campana.com</li>
@@ -132,19 +137,26 @@
                   <li class="small">Av.Loreto Fabela #33</li>
               </ul>
           </div>
-          <div class="col-4 footer__redes">
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 esconder-xs footer__redes">
               <ul class="redes">
                   <li><i class="bi bi-whatsapp"></i></li>
                   <li><i class="bi bi-facebook"></i></li>
                   <li><i class="bi bi-instagram"></i></li>
               </ul>
           </div>
-          <div class="col-4 footer__info">
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6 footer__info">
               <ul class="info">
                   <li class="small footer__sub">Legal</li>
                   <li class="small">Privacidad</li>
                   <li class="small">Términos</li>
               </ul>
+              <div class="abc esconder-xl esconder-lg esconder-md esconder-sm">
+                  <ul class="redes">
+                    <li class="icono"><i class="bi bi-whatsapp"></i></li>
+                    <li class="icono"><i class="bi bi-facebook"></i></li>
+                    <li><i class="bi bi-instagram"></i></li>
+                </ul>
+              </div>
           </div>
       </div>
       <div class="footer__final">

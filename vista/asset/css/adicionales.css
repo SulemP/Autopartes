@@ -3,7 +3,6 @@
     position: relative;
     margin-top: 10rem;
     padding: 0%;
-    height: 500px;
 }
 
 .movimiento{
@@ -17,7 +16,6 @@
 
 .informacion{
     margin-top: 4rem;
-    /*margin-left: 5rem;*/
     color: white;
     z-index: 2;
 }
@@ -38,4 +36,42 @@
 .adicional__info{
     margin-top: 4rem;
     text-align: justify;
+}
+
+
+/*Son medias query y sirven para hacer modificaciones en las páginas web, dependiendo de la resolución en la que estemos*/
+/*Medida XL*/
+@media (min-width: 1200px) {
+}
+
+/*TELÉFONO CELULAR LG*/
+@media (max-width: 1199px) and (min-width: 992px){
+}
+
+/*TELÉFONO CELULAR MD*/
+@media (max-width: 991px) and (min-width: 768px){
+}
+
+/*TELÉFONO CELULAR SM*/
+@media(max-width: 767px) and (min-width: 576px){
+    #adicional{
+        font-size: 14px;
+        margin-top: 35rem;
+    }
+}
+
+/*TELÉFONO CELULAR XS*/
+@media (max-width: 575px){
+    #adicional{
+        font-size: 12px;
+        margin-top: 38rem;
+    }
+
+    .movimiento{
+        height: 400px;
+    }
+
+    .informacion{
+        margin-top: 2rem;
+    }
 }

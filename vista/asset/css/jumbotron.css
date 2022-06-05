@@ -2,7 +2,7 @@
     font-size: 16px;
     position: relative;
     background-color: var(--color-heart5);
-}
+} 
 
 .auto{
     object-fit: cover;
@@ -42,9 +42,11 @@
     padding: .2rem;
     border-radius: .5rem;
     width: 20%;
+    height: 34.38px;
     color: var(--color-heart2);
     border-color: var(--color-heart2);
     font-weight: 500;
+    float: right;
 }
 
 .descuento{
@@ -60,4 +62,100 @@
     text-align: center;
     line-height: 1.1rem;
     font-weight: 300;
+}
+
+/*Son medias query y sirven para hacer modificaciones en las páginas web, dependiendo de la resolución en la que estemos*/
+/*Medida XL*/
+@media (min-width: 1200px) {
+}
+
+/*TELÉFONO CELULAR LG*/
+@media (max-width: 1199px) and (min-width: 992px){
+    .auto{
+        height: 400px;
+        margin-top: 10rem;
+        margin-left: 2%;
+    }
+
+    .enviar{
+        font-size: 12px;
+        height: 34.38px;
+    }
+}
+
+/*TELÉFONO CELULAR MD*/
+@media (max-width: 991px) and (min-width: 768px){
+    .jumbotron{
+        font-size: 14px;
+    }
+    
+    .titulo{
+        text-align: justify;
+    }
+
+    .sub{
+        text-align: justify;
+        color: white;
+    }
+
+    .auto{
+        width: auto;
+        position: absolute;
+        margin-top: -20rem;
+        z-index: -1;
+        opacity: .2;
+    }
+}
+
+/*TELÉFONO CELULAR SM*/
+@media(max-width: 767px) and (min-width: 576px){
+    .jumbotron{
+        font-size: 14px;
+    }
+
+    .titulo{
+        margin-top: 8rem;
+        text-align: justify;
+    }
+
+    .sub{
+        text-align: justify;
+    }
+
+    .descuento{
+        height: 1.8rem;
+    }
+
+    .desc{
+        line-height: 1.8rem;
+    }
+
+}
+
+/*TELÉFONO CELULAR XS*/
+@media (max-width: 575px){
+    .jumbotron{
+        font-size: 12px;
+    }
+
+    .titulo{
+        margin-top: 8rem;
+        text-align: justify;
+    }
+
+    .sub{
+        text-align: justify;
+    }
+
+    .enviar{
+        font-size: 12px;
+    }
+
+    .descuento{
+        height: 1.8rem;
+    }
+
+    .desc{
+        line-height: 1.8rem;
+    }
 }

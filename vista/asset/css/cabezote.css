@@ -10,6 +10,7 @@
 .logo{
     height: 100px;
     margin-top: 0.5rem;
+    object-fit: cover;
   }
   
   
@@ -37,13 +38,13 @@
                       height: 5rem*/
   }
   
-.url {
+.url{
     font-size: 18px;
     color: white;
     text-decoration: none;
   }
   
-.cabezote .boton {
+.boton{
     background-color: #590B0B;
     margin-top: 2rem;
     height: 3rem;
@@ -53,7 +54,7 @@
     font-weight: bold;
   }
   
-.cabezote .boton .escribenos {
+.escribenos{
     color: white;
     line-height: 2.6rem;
   }
@@ -61,14 +62,80 @@
   /*Son medias query y sirven para hacer modificaciones en las páginas web, dependiendo de la resolución en la que estemos*/
   /*Medida XL*/
 @media (min-width: 1200px) {
-    .campana {
-      left: 8.5%;
-    }
-    .autopartes {
-      left: 6.8%;
-    }
-    .camp {
-      left: 10%;
+  }
+
+  /*TELÉFONO CELULAR LG*/
+  @media (max-width: 1199px) and (min-width: 992px){  
+    .boton{
+      float: right;
     }
   }
-  /*# sourceMappingURL=cabezote.css.map */
+
+  /*TELÉFONO CELULAR MD*/
+  @media (max-width: 991px) and (min-width: 768px){
+    .cabezote{
+      font-size: 14px;
+    }
+
+    .logo{
+      width: 100%;
+    }
+
+    .boton{
+      width: 7rem;
+      margin-left: 25%;
+    }
+
+  }
+
+  /*TELÉFONO CELULAR SM*/
+  @media(max-width: 767px) and (min-width: 576px){
+    .cabezote{
+      font-size: 14px;
+    }
+
+    .cabezote__a{
+      padding: 0%;
+    }
+
+    .logo{
+      height: 70px;
+      width: 100%;
+      margin-top: 1.2rem;
+    }
+
+    .cabezote__b{
+      padding: 0%;
+    }
+
+    .url{
+      font-size: 14px;
+    }
+
+    .cabezote__c{
+      padding: 0%;
+    }
+
+    .boton{
+      margin-left: 22%;
+      width: 6rem;
+    }
+  }
+
+  /*TELÉFONO CELULAR XS*/
+  @media (max-width: 575px){
+    .cabezote{
+      font-size: 12px;
+    }
+
+    .logo{
+      height: 80px;
+      margin-top: 1.5rem;
+    }
+
+    .boton{
+      width: 7rem;
+      margin-top: 2.5rem;
+      float: right;
+    }
+  }

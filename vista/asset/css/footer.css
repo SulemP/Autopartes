@@ -1,5 +1,6 @@
 #footer{
     position: relative;
+    margin-top: 5rem;
     font-size: 16px;
     background-color: var(--color-heart5);
     
@@ -54,4 +55,59 @@
     color: var(--color-heart2);
     text-decoration: none;
     font-weight: bold;
+}
+
+
+/*Son medias query y sirven para hacer modificaciones en las páginas web, dependiendo de la resolución en la que estemos*/
+/*Medida XL*/
+@media (min-width: 1200px) {
+}
+
+/*TELÉFONO CELULAR LG*/
+@media (max-width: 1199px) and (min-width: 992px){
+}
+
+/*TELÉFONO CELULAR MD*/
+@media (max-width: 991px) and (min-width: 768px){
+}
+
+/*TELÉFONO CELULAR SM*/
+@media(max-width: 767px) and (min-width: 576px){
+    #footer{
+        font-size: 14px;
+        margin-top: 7rem;
+    }
+
+    .copy__p{
+        font-size: .75em;
+        line-height: 1.5rem;
+    }
+}
+
+/*TELÉFONO CELULAR XS*/
+@media (max-width: 575px){
+    #footer{
+        font-size: 12px;
+        margin-top: 3rem;
+    }
+
+    .footer__final{
+        margin-top: 1rem;
+        height: 1.1rem;
+    }
+
+    .copy__p{
+        font-size: .41rem;
+        line-height: 1.1rem;
+    }
+
+    .redes{
+        float: right;
+        margin-top: -.7rem;
+        font-size: 12px;
+    }
+
+    .icono{
+        margin-right: .5rem;
+    }
 }
